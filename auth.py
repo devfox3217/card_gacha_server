@@ -28,8 +28,10 @@ class UserDB(Base):
 
     id = Column(Integer, primary_key=True, index=True)
     username = Column(String, unique=True, index=True)
+    nickname = Column(String, index=True) # 닉네임 컬럼 추가
     hashed_password = Column(String)
     is_active = Column(Boolean, default=True)
+    draw_count = Column(Integer, default=10)
 
 # --- Pydantic 모델 (데이터 검증용) ---
 class Token(BaseModel):
@@ -42,11 +44,14 @@ class TokenData(BaseModel):
 class UserCreate(BaseModel):
     username: str
     password: str
+    nickname: str # 회원가입 시 받을 닉네임 추가
 
 class UserResponse(BaseModel):
     id: int
     username: str
+    nickname: str # 응답에 닉네임 추가
     is_active: bool
+    draw_count: int
 
     class Config:
         from_attributes = True
@@ -87,7 +92,6 @@ async def get_current_user(token: str = Depends(oauth2_scheme), db: Session = De
     except JWTError:
         raise credentials_exception
     
-    # DB에서 사용자 확인
     user = get_user(db, username=token_data.username)
     if user is None:
         raise credentials_exception
@@ -95,29 +99,30 @@ async def get_current_user(token: str = Depends(oauth2_scheme), db: Session = De
 
 # --- API 엔드포인트 ---
 
-# 회원가입 라우터 (테스트를 위해 추가)
 @router.post("/register", response_model=UserResponse)
 def register_user(user: UserCreate, db: Session = Depends(get_db)):
     db_user = get_user(db, username=user.username)
-    # 이미 존재하는 사용자 이름인 경우 분기
     if db_user:
         raise HTTPException(status_code=400, detail="Username already registered")
     
     hashed_password = get_password_hash(user.password)
-    new_user = UserDB(username=user.username, hashed_password=hashed_password)
+    # DB에 저장 시 닉네임 추가
+    new_user = UserDB(
+        username=user.username, 
+        nickname=user.nickname, 
+        hashed_password=hashed_password, 
+        draw_count=20
+    )
     
-    # DB에 새 사용자 저장
     db.add(new_user)
     db.commit()
     db.refresh(new_user)
     return new_user
 
-# 로그인 라우터
 @router.post("/token", response_model=Token)
 async def login_for_access_token(form_data: OAuth2PasswordRequestForm = Depends(), db: Session = Depends(get_db)):
     user = get_user(db, username=form_data.username)
     
-    # 사용자가 없거나 비밀번호가 틀린 경우 분기
     if not user or not verify_password(form_data.password, user.hashed_password):
         raise HTTPException(
             status_code=status.HTTP_401_UNAUTHORIZED,
@@ -125,9 +130,12 @@ async def login_for_access_token(form_data: OAuth2PasswordRequestForm = Depends(
             headers={"WWW-Authenticate": "Bearer"},
         )
     
-    # 토큰 발급
     access_token_expires = timedelta(minutes=ACCESS_TOKEN_EXPIRE_MINUTES)
     access_token = create_access_token(
         data={"sub": user.username}, expires_delta=access_token_expires
     )
     return {"access_token": access_token, "token_type": "bearer"}
+
+@router.get("/me", response_model=UserResponse)
+async def read_users_me(current_user: UserDB = Depends(get_current_user)):
+    return current_user

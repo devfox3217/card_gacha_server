@@ -31,8 +31,15 @@ CARD_WEIGHTS = [card["random"] for card in CARDS_DATA]
 @router.post("/draw")
 def draw_card(times: int = 1, db: Session = Depends(get_db), current_user: UserDB = Depends(get_current_user)):
     """
-    지정된 횟수(times)만큼 카드를 뽑고 사용자의 인벤토리에 저장합니다. 기본 1회.
+    지정된 횟수(times)만큼 카드를 뽑습니다. 사용자의 보유 뽑기 횟수(draw_count)가 차감됩니다.
     """
+    # 사용자의 뽑기 횟수가 충분한지 확인
+    if current_user.draw_count < times:
+        raise HTTPException(status_code=400, detail="Not enough draw count")
+
+    # 뽑기 횟수 차감
+    current_user.draw_count -= times
+
     # 가중치 기반으로 카드 뽑기 수행
     drawn_cards = random.choices(CARDS_DATA, weights=CARD_WEIGHTS, k=times)
     
@@ -63,8 +70,9 @@ def draw_card(times: int = 1, db: Session = Depends(get_db), current_user: UserD
     db.commit()
     
     return {
-        "message": f"{times}장의 카드를 뽑았습니다!",
-        "drawn_cards": drawn_cards
+        "message": f"{times}장의 카드를 뽑았습니다! 남은 뽑기 횟수: {current_user.draw_count}",
+        "drawn_cards": drawn_cards,
+        "remaining_draw_count": current_user.draw_count
     }
 
 @router.get("/inventory")
