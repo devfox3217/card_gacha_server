@@ -15,9 +15,8 @@ else
     source .venv/bin/activate
 fi
 
-# 가상환경 내부의 python 실행 파일을 직접 사용하여 서버를 실행합니다.
-# 이렇게 하면 시스템의 python 버전과 무관하게 안정적으로 동작합니다.
-nohup ./.venv/bin/python -m uvicorn main:app --host 0.0.0.0 --port 8000 > server.log 2>&1 &
+# uvicorn 명령어를 직접 실행하도록 변경 (python -m 대신)
+nohup uvicorn main:app --host 0.0.0.0 --port 8000 > server.log 2>&1 &
 echo $! > server.pid
 
 echo "Server is now running in the background."
