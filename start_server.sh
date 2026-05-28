@@ -2,9 +2,22 @@
 
 echo "Starting FastAPI server in the background..."
 
+# .venv 가상 환경이 없으면 생성하고 활성화
+if [ ! -d ".venv" ]; then
+    echo "Virtual environment '.venv' not found. Creating one..."
+    python3 -m venv .venv
+    source .venv/bin/activate
+
+    echo "Installing required packages..."
+    pip install fastapi uvicorn passlib[argon2] argon2-cffi python-jose[cryptography] sqlalchemy
+else
+    echo "Virtual environment '.venv' found."
+    source .venv/bin/activate
+fi
+
 # nohup과 &를 사용하여 백그라운드에서 실행하고, 로그를 server.log 파일에 저장합니다.
 # 실행된 프로세스의 PID(프로세스 ID)를 server.pid 파일에 저장하여 나중에 종료할 때 사용합니다.
-nohup ./.venv/bin/python -m uvicorn main:app --host 0.0.0.0 --port 8000 > server.log 2>&1 &
+nohup python -m uvicorn main:app --host 0.0.0.0 --port 8000 > server.log 2>&1 &
 echo $! > server.pid
 
 echo "Server is now running in the background."
