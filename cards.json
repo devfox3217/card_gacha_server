@@ -1,0 +1,802 @@
+[
+    {
+        "number": 1,
+        "file": "1.jpg",
+        "name": "카드 1",
+        "rank": "N",
+        "description": "N 등급 카드 1입니다.",
+        "random": 10000
+    },
+    {
+        "number": 2,
+        "file": "2.jpg",
+        "name": "카드 2",
+        "rank": "N",
+        "description": "N 등급 카드 2입니다.",
+        "random": 10000
+    },
+    {
+        "number": 3,
+        "file": "3.jpg",
+        "name": "카드 3",
+        "rank": "N",
+        "description": "N 등급 카드 3입니다.",
+        "random": 10000
+    },
+    {
+        "number": 4,
+        "file": "4.jpg",
+        "name": "카드 4",
+        "rank": "N",
+        "description": "N 등급 카드 4입니다.",
+        "random": 10000
+    },
+    {
+        "number": 5,
+        "file": "5.jpg",
+        "name": "카드 5",
+        "rank": "N",
+        "description": "N 등급 카드 5입니다.",
+        "random": 10000
+    },
+    {
+        "number": 6,
+        "file": "6.jpg",
+        "name": "카드 6",
+        "rank": "N",
+        "description": "N 등급 카드 6입니다.",
+        "random": 10000
+    },
+    {
+        "number": 7,
+        "file": "7.jpg",
+        "name": "카드 7",
+        "rank": "N",
+        "description": "N 등급 카드 7입니다.",
+        "random": 10000
+    },
+    {
+        "number": 8,
+        "file": "8.jpg",
+        "name": "카드 8",
+        "rank": "N",
+        "description": "N 등급 카드 8입니다.",
+        "random": 10000
+    },
+    {
+        "number": 9,
+        "file": "9.jpg",
+        "name": "카드 9",
+        "rank": "N",
+        "description": "N 등급 카드 9입니다.",
+        "random": 10000
+    },
+    {
+        "number": 10,
+        "file": "10.jpg",
+        "name": "카드 10",
+        "rank": "N",
+        "description": "N 등급 카드 10입니다.",
+        "random": 10000
+    },
+    {
+        "number": 11,
+        "file": "11.jpg",
+        "name": "카드 11",
+        "rank": "N",
+        "description": "N 등급 카드 11입니다.",
+        "random": 10000
+    },
+    {
+        "number": 12,
+        "file": "12.jpg",
+        "name": "카드 12",
+        "rank": "N",
+        "description": "N 등급 카드 12입니다.",
+        "random": 10000
+    },
+    {
+        "number": 13,
+        "file": "13.jpg",
+        "name": "카드 13",
+        "rank": "N",
+        "description": "N 등급 카드 13입니다.",
+        "random": 10000
+    },
+    {
+        "number": 14,
+        "file": "14.jpg",
+        "name": "카드 14",
+        "rank": "N",
+        "description": "N 등급 카드 14입니다.",
+        "random": 10000
+    },
+    {
+        "number": 15,
+        "file": "15.jpg",
+        "name": "카드 15",
+        "rank": "N",
+        "description": "N 등급 카드 15입니다.",
+        "random": 10000
+    },
+    {
+        "number": 16,
+        "file": "16.jpg",
+        "name": "카드 16",
+        "rank": "N",
+        "description": "N 등급 카드 16입니다.",
+        "random": 10000
+    },
+    {
+        "number": 17,
+        "file": "17.jpg",
+        "name": "카드 17",
+        "rank": "N",
+        "description": "N 등급 카드 17입니다.",
+        "random": 10000
+    },
+    {
+        "number": 18,
+        "file": "18.jpg",
+        "name": "카드 18",
+        "rank": "N",
+        "description": "N 등급 카드 18입니다.",
+        "random": 10000
+    },
+    {
+        "number": 19,
+        "file": "19.jpg",
+        "name": "카드 19",
+        "rank": "N",
+        "description": "N 등급 카드 19입니다.",
+        "random": 10000
+    },
+    {
+        "number": 20,
+        "file": "20.jpg",
+        "name": "카드 20",
+        "rank": "R",
+        "description": "R 등급 카드 20입니다.",
+        "random": 1000
+    },
+    {
+        "number": 21,
+        "file": "21.jpg",
+        "name": "카드 21",
+        "rank": "R",
+        "description": "R 등급 카드 21입니다.",
+        "random": 1000
+    },
+    {
+        "number": 22,
+        "file": "22.jpg",
+        "name": "카드 22",
+        "rank": "R",
+        "description": "R 등급 카드 22입니다.",
+        "random": 1000
+    },
+    {
+        "number": 23,
+        "file": "23.jpg",
+        "name": "카드 23",
+        "rank": "R",
+        "description": "R 등급 카드 23입니다.",
+        "random": 1000
+    },
+    {
+        "number": 24,
+        "file": "24.jpg",
+        "name": "카드 24",
+        "rank": "R",
+        "description": "R 등급 카드 24입니다.",
+        "random": 1000
+    },
+    {
+        "number": 25,
+        "file": "25.jpg",
+        "name": "카드 25",
+        "rank": "R",
+        "description": "R 등급 카드 25입니다.",
+        "random": 1000
+    },
+    {
+        "number": 26,
+        "file": "26.jpg",
+        "name": "카드 26",
+        "rank": "R",
+        "description": "R 등급 카드 26입니다.",
+        "random": 1000
+    },
+    {
+        "number": 27,
+        "file": "27.jpg",
+        "name": "카드 27",
+        "rank": "R",
+        "description": "R 등급 카드 27입니다.",
+        "random": 1000
+    },
+    {
+        "number": 28,
+        "file": "28.jpg",
+        "name": "카드 28",
+        "rank": "R",
+        "description": "R 등급 카드 28입니다.",
+        "random": 1000
+    },
+    {
+        "number": 29,
+        "file": "29.jpg",
+        "name": "카드 29",
+        "rank": "R",
+        "description": "R 등급 카드 29입니다.",
+        "random": 1000
+    },
+    {
+        "number": 30,
+        "file": "30.jpg",
+        "name": "카드 30",
+        "rank": "R",
+        "description": "R 등급 카드 30입니다.",
+        "random": 1000
+    },
+    {
+        "number": 31,
+        "file": "31.jpg",
+        "name": "카드 31",
+        "rank": "R",
+        "description": "R 등급 카드 31입니다.",
+        "random": 1000
+    },
+    {
+        "number": 32,
+        "file": "32.jpg",
+        "name": "카드 32",
+        "rank": "R",
+        "description": "R 등급 카드 32입니다.",
+        "random": 1000
+    },
+    {
+        "number": 33,
+        "file": "33.jpg",
+        "name": "카드 33",
+        "rank": "R",
+        "description": "R 등급 카드 33입니다.",
+        "random": 1000
+    },
+    {
+        "number": 34,
+        "file": "34.jpg",
+        "name": "카드 34",
+        "rank": "R",
+        "description": "R 등급 카드 34입니다.",
+        "random": 1000
+    },
+    {
+        "number": 35,
+        "file": "35.jpg",
+        "name": "카드 35",
+        "rank": "R",
+        "description": "R 등급 카드 35입니다.",
+        "random": 1000
+    },
+    {
+        "number": 36,
+        "file": "36.jpg",
+        "name": "카드 36",
+        "rank": "R",
+        "description": "R 등급 카드 36입니다.",
+        "random": 1000
+    },
+    {
+        "number": 37,
+        "file": "37.jpg",
+        "name": "카드 37",
+        "rank": "R",
+        "description": "R 등급 카드 37입니다.",
+        "random": 1000
+    },
+    {
+        "number": 38,
+        "file": "38.jpg",
+        "name": "카드 38",
+        "rank": "R",
+        "description": "R 등급 카드 38입니다.",
+        "random": 1000
+    },
+    {
+        "number": 39,
+        "file": "39.jpg",
+        "name": "카드 39",
+        "rank": "R",
+        "description": "R 등급 카드 39입니다.",
+        "random": 1000
+    },
+    {
+        "number": 40,
+        "file": "40.jpg",
+        "name": "카드 40",
+        "rank": "R",
+        "description": "R 등급 카드 40입니다.",
+        "random": 1000
+    },
+    {
+        "number": 41,
+        "file": "41.jpg",
+        "name": "카드 41",
+        "rank": "R",
+        "description": "R 등급 카드 41입니다.",
+        "random": 1000
+    },
+    {
+        "number": 42,
+        "file": "42.jpg",
+        "name": "카드 42",
+        "rank": "R",
+        "description": "R 등급 카드 42입니다.",
+        "random": 1000
+    },
+    {
+        "number": 43,
+        "file": "43.jpg",
+        "name": "카드 43",
+        "rank": "R",
+        "description": "R 등급 카드 43입니다.",
+        "random": 1000
+    },
+    {
+        "number": 44,
+        "file": "44.jpg",
+        "name": "카드 44",
+        "rank": "R",
+        "description": "R 등급 카드 44입니다.",
+        "random": 1000
+    },
+    {
+        "number": 45,
+        "file": "45.jpg",
+        "name": "카드 45",
+        "rank": "R",
+        "description": "R 등급 카드 45입니다.",
+        "random": 1000
+    },
+    {
+        "number": 46,
+        "file": "46.jpg",
+        "name": "카드 46",
+        "rank": "R",
+        "description": "R 등급 카드 46입니다.",
+        "random": 1000
+    },
+    {
+        "number": 47,
+        "file": "47.jpg",
+        "name": "카드 47",
+        "rank": "R",
+        "description": "R 등급 카드 47입니다.",
+        "random": 1000
+    },
+    {
+        "number": 48,
+        "file": "48.jpg",
+        "name": "카드 48",
+        "rank": "R",
+        "description": "R 등급 카드 48입니다.",
+        "random": 1000
+    },
+    {
+        "number": 49,
+        "file": "49.jpg",
+        "name": "카드 49",
+        "rank": "R",
+        "description": "R 등급 카드 49입니다.",
+        "random": 1000
+    },
+    {
+        "number": 50,
+        "file": "50.jpg",
+        "name": "카드 50",
+        "rank": "R",
+        "description": "R 등급 카드 50입니다.",
+        "random": 1000
+    },
+    {
+        "number": 51,
+        "file": "51.jpg",
+        "name": "카드 51",
+        "rank": "R",
+        "description": "R 등급 카드 51입니다.",
+        "random": 1000
+    },
+    {
+        "number": 52,
+        "file": "52.jpg",
+        "name": "카드 52",
+        "rank": "R",
+        "description": "R 등급 카드 52입니다.",
+        "random": 1000
+    },
+    {
+        "number": 53,
+        "file": "53.jpg",
+        "name": "카드 53",
+        "rank": "R",
+        "description": "R 등급 카드 53입니다.",
+        "random": 1000
+    },
+    {
+        "number": 54,
+        "file": "54.jpg",
+        "name": "카드 54",
+        "rank": "R",
+        "description": "R 등급 카드 54입니다.",
+        "random": 1000
+    },
+    {
+        "number": 55,
+        "file": "55.jpg",
+        "name": "카드 55",
+        "rank": "R",
+        "description": "R 등급 카드 55입니다.",
+        "random": 1000
+    },
+    {
+        "number": 56,
+        "file": "56.jpg",
+        "name": "카드 56",
+        "rank": "R",
+        "description": "R 등급 카드 56입니다.",
+        "random": 1000
+    },
+    {
+        "number": 57,
+        "file": "57.jpg",
+        "name": "카드 57",
+        "rank": "R",
+        "description": "R 등급 카드 57입니다.",
+        "random": 1000
+    },
+    {
+        "number": 58,
+        "file": "58.jpg",
+        "name": "카드 58",
+        "rank": "R",
+        "description": "R 등급 카드 58입니다.",
+        "random": 1000
+    },
+    {
+        "number": 59,
+        "file": "59.jpg",
+        "name": "카드 59",
+        "rank": "R",
+        "description": "R 등급 카드 59입니다.",
+        "random": 1000
+    },
+    {
+        "number": 60,
+        "file": "60.jpg",
+        "name": "카드 60",
+        "rank": "SR",
+        "description": "SR 등급 카드 60입니다.",
+        "random": 100
+    },
+    {
+        "number": 61,
+        "file": "61.jpg",
+        "name": "카드 61",
+        "rank": "SR",
+        "description": "SR 등급 카드 61입니다.",
+        "random": 100
+    },
+    {
+        "number": 62,
+        "file": "62.jpg",
+        "name": "카드 62",
+        "rank": "SR",
+        "description": "SR 등급 카드 62입니다.",
+        "random": 100
+    },
+    {
+        "number": 63,
+        "file": "63.jpg",
+        "name": "카드 63",
+        "rank": "SR",
+        "description": "SR 등급 카드 63입니다.",
+        "random": 100
+    },
+    {
+        "number": 64,
+        "file": "64.jpg",
+        "name": "카드 64",
+        "rank": "SR",
+        "description": "SR 등급 카드 64입니다.",
+        "random": 100
+    },
+    {
+        "number": 65,
+        "file": "65.jpg",
+        "name": "카드 65",
+        "rank": "SR",
+        "description": "SR 등급 카드 65입니다.",
+        "random": 100
+    },
+    {
+        "number": 66,
+        "file": "66.jpg",
+        "name": "카드 66",
+        "rank": "SR",
+        "description": "SR 등급 카드 66입니다.",
+        "random": 100
+    },
+    {
+        "number": 67,
+        "file": "67.jpg",
+        "name": "카드 67",
+        "rank": "SR",
+        "description": "SR 등급 카드 67입니다.",
+        "random": 100
+    },
+    {
+        "number": 68,
+        "file": "68.jpg",
+        "name": "카드 68",
+        "rank": "SR",
+        "description": "SR 등급 카드 68입니다.",
+        "random": 100
+    },
+    {
+        "number": 69,
+        "file": "69.jpg",
+        "name": "카드 69",
+        "rank": "SR",
+        "description": "SR 등급 카드 69입니다.",
+        "random": 100
+    },
+    {
+        "number": 70,
+        "file": "70.jpg",
+        "name": "카드 70",
+        "rank": "SR",
+        "description": "SR 등급 카드 70입니다.",
+        "random": 100
+    },
+    {
+        "number": 71,
+        "file": "71.jpg",
+        "name": "카드 71",
+        "rank": "SR",
+        "description": "SR 등급 카드 71입니다.",
+        "random": 100
+    },
+    {
+        "number": 72,
+        "file": "72.jpg",
+        "name": "카드 72",
+        "rank": "SR",
+        "description": "SR 등급 카드 72입니다.",
+        "random": 100
+    },
+    {
+        "number": 73,
+        "file": "73.jpg",
+        "name": "카드 73",
+        "rank": "SR",
+        "description": "SR 등급 카드 73입니다.",
+        "random": 100
+    },
+    {
+        "number": 74,
+        "file": "74.jpg",
+        "name": "카드 74",
+        "rank": "SR",
+        "description": "SR 등급 카드 74입니다.",
+        "random": 100
+    },
+    {
+        "number": 75,
+        "file": "75.jpg",
+        "name": "카드 75",
+        "rank": "SR",
+        "description": "SR 등급 카드 75입니다.",
+        "random": 100
+    },
+    {
+        "number": 76,
+        "file": "76.jpg",
+        "name": "카드 76",
+        "rank": "SR",
+        "description": "SR 등급 카드 76입니다.",
+        "random": 100
+    },
+    {
+        "number": 77,
+        "file": "77.jpg",
+        "name": "카드 77",
+        "rank": "SR",
+        "description": "SR 등급 카드 77입니다.",
+        "random": 100
+    },
+    {
+        "number": 78,
+        "file": "78.jpg",
+        "name": "카드 78",
+        "rank": "SR",
+        "description": "SR 등급 카드 78입니다.",
+        "random": 100
+    },
+    {
+        "number": 79,
+        "file": "79.jpg",
+        "name": "카드 79",
+        "rank": "SR",
+        "description": "SR 등급 카드 79입니다.",
+        "random": 100
+    },
+    {
+        "number": 80,
+        "file": "80.jpg",
+        "name": "카드 80",
+        "rank": "SR",
+        "description": "SR 등급 카드 80입니다.",
+        "random": 100
+    },
+    {
+        "number": 81,
+        "file": "81.jpg",
+        "name": "카드 81",
+        "rank": "SR",
+        "description": "SR 등급 카드 81입니다.",
+        "random": 100
+    },
+    {
+        "number": 82,
+        "file": "82.jpg",
+        "name": "카드 82",
+        "rank": "SR",
+        "description": "SR 등급 카드 82입니다.",
+        "random": 100
+    },
+    {
+        "number": 83,
+        "file": "83.jpg",
+        "name": "카드 83",
+        "rank": "SR",
+        "description": "SR 등급 카드 83입니다.",
+        "random": 100
+    },
+    {
+        "number": 84,
+        "file": "84.jpg",
+        "name": "카드 84",
+        "rank": "SR",
+        "description": "SR 등급 카드 84입니다.",
+        "random": 100
+    },
+    {
+        "number": 85,
+        "file": "85.jpg",
+        "name": "카드 85",
+        "rank": "SR",
+        "description": "SR 등급 카드 85입니다.",
+        "random": 100
+    },
+    {
+        "number": 86,
+        "file": "86.jpg",
+        "name": "카드 86",
+        "rank": "SR",
+        "description": "SR 등급 카드 86입니다.",
+        "random": 100
+    },
+    {
+        "number": 87,
+        "file": "87.jpg",
+        "name": "카드 87",
+        "rank": "SR",
+        "description": "SR 등급 카드 87입니다.",
+        "random": 100
+    },
+    {
+        "number": 88,
+        "file": "88.jpg",
+        "name": "카드 88",
+        "rank": "SR",
+        "description": "SR 등급 카드 88입니다.",
+        "random": 100
+    },
+    {
+        "number": 89,
+        "file": "89.jpg",
+        "name": "카드 89",
+        "rank": "SR",
+        "description": "SR 등급 카드 89입니다.",
+        "random": 100
+    },
+    {
+        "number": 90,
+        "file": "90.jpg",
+        "name": "카드 90",
+        "rank": "SSR",
+        "description": "SSR 등급 카드 90입니다.",
+        "random": 10
+    },
+    {
+        "number": 91,
+        "file": "91.jpg",
+        "name": "카드 91",
+        "rank": "SSR",
+        "description": "SSR 등급 카드 91입니다.",
+        "random": 10
+    },
+    {
+        "number": 92,
+        "file": "92.jpg",
+        "name": "카드 92",
+        "rank": "SSR",
+        "description": "SSR 등급 카드 92입니다.",
+        "random": 10
+    },
+    {
+        "number": 93,
+        "file": "93.jpg",
+        "name": "카드 93",
+        "rank": "SSR",
+        "description": "SSR 등급 카드 93입니다.",
+        "random": 10
+    },
+    {
+        "number": 94,
+        "file": "94.jpg",
+        "name": "카드 94",
+        "rank": "SSR",
+        "description": "SSR 등급 카드 94입니다.",
+        "random": 10
+    },
+    {
+        "number": 95,
+        "file": "95.jpg",
+        "name": "카드 95",
+        "rank": "SSR",
+        "description": "SSR 등급 카드 95입니다.",
+        "random": 10
+    },
+    {
+        "number": 96,
+        "file": "96.jpg",
+        "name": "카드 96",
+        "rank": "SSR",
+        "description": "SSR 등급 카드 96입니다.",
+        "random": 10
+    },
+    {
+        "number": 97,
+        "file": "97.jpg",
+        "name": "카드 97",
+        "rank": "SSR",
+        "description": "SSR 등급 카드 97입니다.",
+        "random": 10
+    },
+    {
+        "number": 98,
+        "file": "98.jpg",
+        "name": "카드 98",
+        "rank": "SSR",
+        "description": "SSR 등급 카드 98입니다.",
+        "random": 10
+    },
+    {
+        "number": 99,
+        "file": "99.jpg",
+        "name": "카드 99",
+        "rank": "SSR",
+        "description": "SSR 등급 카드 99입니다.",
+        "random": 10
+    },
+    {
+        "number": 100,
+        "file": "100.jpg",
+        "name": "카드 100",
+        "rank": "SSSR",
+        "description": "SSSR 등급 카드 100입니다.",
+        "random": 1
+    }
+]

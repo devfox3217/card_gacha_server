@@ -1,0 +1,14 @@
+# 가상 환경
+.venv/
+
+# 파이썬 캐시 파일
+__pycache__/
+*.pyc
+
+# JetBrains IDE 설정 파일
+.idea/
+*.iml
+
+# 카드 생성을 위해 임시로 사용한 스크립트
+generate_cards.py
+gcp_key.pub
